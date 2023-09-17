@@ -1,0 +1,582 @@
+{
+  "status": true,
+  "message": "Restaurant menu found",
+  "data": [
+    {
+      "category_id": "1",
+      "category_name": "APPETIZERS",
+      "category_desc": "",
+      "is_sub_category": false,
+      "category_list": [
+        {
+          "cat_id": "101",
+          "cat_name": "Iceberg Wedge Salad with House Cured Bacon",
+          "cat_desc": "tomato salsa gorgonzola",
+          "cat_price": "7.50",
+          "cat_image": "https://unpeeledjournal.com/wp-content/uploads/2021/01/50886149276_f06791a6f7_c.jpg",
+          "cat_likes_status": false,
+          "cat_cart_count": 0
+        },
+        {
+          "cat_id": "102",
+          "cat_name": "Sautéed Shredded Brussels Sprouts",
+          "cat_desc": "bacon hazelnuts gorgonzola",
+          "cat_price": "6.95",
+          "cat_image": "https://unpeeledjournal.com/wp-content/uploads/2021/01/50886149276_f06791a6f7_c.jpg",
+          "cat_likes_status": false,
+          "cat_cart_count": 0
+        },
+        {
+          "cat_id": "103",
+          "cat_name": "Kale Salad",
+          "cat_desc": "parmesan crisp corn radish garlic-lemon vinaigrette",
+          "cat_price": "7.50\n",
+          "cat_image": "https://sailorbailey.com/wp-content/uploads/2022/07/Roasted-Corn-Salad1.jpg",
+          "cat_likes_status": false,
+          "cat_cart_count": 0
+        },
+        {
+          "cat_id": "104",
+          "cat_name": "Pecan Crusted Utah Goat Cheese with Basil-Mint Pesto",
+          "cat_desc": "grilled tomato salsa crostini",
+          "cat_price": "6.95",
+          "cat_image": "https://www.seasonedkitchen.com/wp-content/uploads/tomato-pesto-goat-cheese-crostini-assembly-3.jpg",
+          "cat_likes_status": false,
+          "cat_cart_count": 0
+        },
+        {
+          "cat_id": "105",
+          "cat_name": "Chicken and Cabbage Eggrolls hot",
+          "cat_desc": "sour dipping sauce",
+          "cat_price": "6.95",
+          "cat_image": "https://kitchenfunwithmy3sons.com/wp-content/uploads/2023/06/egg-rolls-feature.jpg",
+          "cat_likes_status": false,
+          "cat_cart_count": 0
+        }
+      ]
+    },
+    {
+      "category_id": "2",
+      "category_name": "ENTREES",
+      "category_desc": "",
+      "is_sub_category": false,
+      "category_list": [
+        {
+          "cat_id": "201",
+          "cat_name": "Farfalle Pasta with Braised Pork in Tomato Cream",
+          "cat_desc": "capers butternut squash kale",
+          "cat_price": "12.95",
+          "cat_image": "https://www.runningtothekitchen.com/wp-content/uploads/2017/05/Creamy-Tomato-Farfalle-with-Peas-and-Crispy-Prosciutto-5.jpg",
+          "cat_likes_status": false,
+          "cat_cart_count": 0
+        },
+        {
+          "cat_id": "202",
+          "cat_name": "Stout Braised Bratwusrt",
+          "cat_desc": "horseradish mashed potatoes roasted root veggies grilled onion",
+          "cat_price": "13.95",
+          "cat_image": "https://poshjournal.com/wp-content/uploads/2021/07/beer-bratwurst-in-the-oven-10.jpg",
+          "cat_likes_status": false,
+          "cat_cart_count": 0
+        },
+        {
+          "cat_id": "203",
+          "cat_name": "Salmon & Crispy Tofu in Yellow Curry Sauce",
+          "cat_desc": "vegetable sauté golden raisin chutney",
+          "cat_price": "15.95",
+          "cat_image": "https://www.wandercooks.com/wp-content/uploads/2021/03/kari-ikan-indonesian-fish-curry-2.jpg",
+          "cat_likes_status": false,
+          "cat_cart_count": 0
+        },
+        {
+          "cat_id": "104",
+          "cat_name": "Sesame Shrimp",
+          "cat_desc": "udon noodles ramen broth shiitake mushrooms bean sprouts scallions",
+          "cat_price": "13.95",
+          "cat_image": "https://healthyfitnessmeals.com/wp-content/uploads/2018/07/instagram-In-Stream_Square___sesame-ginger-shrimp-stir-fry-3.jpg",
+          "cat_likes_status": false,
+          "cat_cart_count": 0
+        }
+      ]
+    },
+    {
+      "category_id": "3",
+      "category_name": "SANDWICHES",
+      "category_desc": "Served with choice of house pasta salad, green salad, or fresh fruit. For an additional $1.50, you can “upgrade” (by substituting) to ½ pasta salad of the day, French onion soup or soup of the day.",
+      "is_sub_category": true,
+      "category_list": [
+        {
+          "cat_id": "301",
+          "cat_name": "COLD",
+          "cat_desc": "Choice of sourdough, whole wheat, or rye bread",
+          "cat_price": "",
+          "cat_list": [
+            {
+              "sub_cat_id": "3011",
+              "sub_cat_name": "Turkey & Avocado",
+              "sub_cat_desc": "with tomato",
+              "amount_type": "List",
+              "sub_cat_selected_index": 0,
+              "sub_cat_details": [
+                {
+                  "id": "1",
+                  "name": "half sandwich",
+                  "price": "7.95"
+                },
+                {
+                  "id": "2",
+                  "name": "full sandwich",
+                  "price": "9.25"
+                }
+              ],
+              "sub_cat_image": "https://morethanmeatandpotatoes.com/wp-content/uploads/2021/01/Turkey-Club-with-Avocado-Featured-Image.jpg",
+              "sub_cat_likes_count": 0,
+              "sub_cat_cart_count": 0
+            },
+            {
+              "sub_cat_id": "3012",
+              "sub_cat_name": "Pub Club",
+              "sub_cat_desc": "turkey, bacon. lettuce, tomato",
+              "amount_type": "List",
+              "sub_cat_selected_index": 0,
+              "sub_cat_details": [
+                {
+                  "id": "1",
+                  "name": "half sandwich",
+                  "price": "7.95"
+                },
+                {
+                  "id": "2",
+                  "name": "full sandwich",
+                  "price": "9.25"
+                }
+              ],
+              "sub_cat_image": "https://c8.alamy.com/comp/E65PDD/turkey-and-bacon-club-sandwich-with-lettuce-and-tomato-E65PDD.jpg",
+              "sub_cat_likes_count": 0,
+              "sub_cat_cart_count": 0
+            },
+            {
+              "sub_cat_id": "3013",
+              "sub_cat_name": "Rare Roast Beef & Swiss",
+              "sub_cat_desc": "sweet-hot mustard, lettuce, red onion",
+              "amount_type": "List",
+              "sub_cat_selected_index": 0,
+              "sub_cat_details": [
+                {
+                  "id": "1",
+                  "name": "half sandwich",
+                  "price": "7.95"
+                },
+                {
+                  "id": "2",
+                  "name": "full sandwich",
+                  "price": "9.25"
+                }
+              ],
+              "sub_cat_image": "https://popmenucloud.com/cdn-cgi/image/width%3D1200%2Cheight%3D1200%2Cfit%3Dscale-down%2Cformat%3Dauto%2Cquality%3D60/wmbynzqt/f33dd5d0-da20-4979-88cc-606172cb72e3.jpg",
+              "sub_cat_likes_count": 0,
+              "sub_cat_cart_count": 0
+            },
+            {
+              "sub_cat_id": "3014",
+              "sub_cat_name": "Veggie",
+              "sub_cat_desc": "pepper jack, avocado, sprout, tomato",
+              "amount_type": "List",
+              "sub_cat_selected_index": 0,
+              "sub_cat_details": [
+                {
+                  "id": "1",
+                  "name": "half sandwich",
+                  "price": "7.95"
+                },
+                {
+                  "id": "2",
+                  "name": "full sandwich",
+                  "price": "9.25"
+                }
+              ],
+              "sub_cat_image": "https://goodcheapeats.com/wp-content/uploads/2021/09/avocado-sandwich-carousel.jpg",
+              "sub_cat_likes_count": 0,
+              "sub_cat_cart_count": 0
+            }
+          ],
+          "cat_image": "",
+          "cat_likes_status": false,
+          "cat_cart_count": 0
+        },
+        {
+          "cat_id": "302",
+          "cat_name": "HOT",
+          "cat_desc": "Choice of whole wheat or cheese & onion bun",
+          "cat_price": "",
+          "cat_list": [
+            {
+              "sub_cat_id": "3021",
+              "sub_cat_name": "Southwest Chicken Breast Grilled Onion, Poblano Pepper, Tomato, Lettuce, Jack Cheese",
+              "sub_cat_desc": "",
+              "sub_cat_price": "9.50",
+              "amount_type": "String",
+              "sub_cat_image": "https://momsdinner.net/wp-content/uploads/2023/05/grilled-chicken-burger-recipe.jpg",
+              "sub_cat_likes_count": 0,
+              "sub_cat_cart_count": 0
+            },
+            {
+              "sub_cat_id": "3022",
+              "sub_cat_name": "Portobello Fresh Mozzarella Caramelized Onion, Roasted Pepper, Tomato, Field Greens, Basil Aioli",
+              "sub_cat_desc": "",
+              "sub_cat_price": "9.50",
+              "amount_type": "String",
+              "sub_cat_image": "https://afullliving.com/wp-content/uploads/2023/08/Portobello-Burgers-1200-x-1200.jpg",
+              "sub_cat_likes_count": 0,
+              "sub_cat_cart_count": 0
+            },
+            {
+              "sub_cat_id": "3023",
+              "sub_cat_name": "Chipotle BBQ Pork Sandwich with Pickled Jalapeño Slaw",
+              "sub_cat_desc": "",
+              "sub_cat_price": "9.50",
+              "amount_type": "String",
+              "sub_cat_image": "https://www.nordicware.com/wp-content/uploads/2021/06/36556_Pulled-Pork-Sandwich_05_E.jpg",
+              "sub_cat_likes_count": 0,
+              "sub_cat_cart_count": 0
+            },
+            {
+              "sub_cat_id": "3024",
+              "sub_cat_name": "Bacon Burger* Swiss, Lettuce, Tomato",
+              "sub_cat_desc": "",
+              "sub_cat_price": "9.25",
+              "amount_type": "String",
+              "sub_cat_image": "https://goodcheapeats.com/wp-content/uploads/2021/05/Tarragon-Turkey-Burger-square.jpg",
+              "sub_cat_likes_count": 0,
+              "sub_cat_cart_count": 0
+            },
+            {
+              "sub_cat_id": "3025",
+              "sub_cat_name": "Mexi Burger* Pepper Relish, Pepper Jack, Tomato, Lettuce, Guacamole",
+              "sub_cat_desc": "",
+              "sub_cat_price": "9.25",
+              "amount_type": "String",
+              "sub_cat_image": "https://ifoodreal.com/wp-content/uploads/2022/05/fg-healthy-black-bean-burgers.jpg",
+              "sub_cat_likes_count": 0,
+              "sub_cat_cart_count": 0
+            },
+            {
+              "sub_cat_id": "3026",
+              "sub_cat_name": "Herb Marinated Top Sirloin* Crimini Mushrooms, Caramelized Onion, Gorgonzola, Basil Aioli, Served Open Faced on Fococcia",
+              "sub_cat_desc": "",
+              "sub_cat_price": "10.95",
+              "amount_type": "String",
+              "sub_cat_image": "https://femina.wwmindia.com/thumb/content/2021/nov/burger-thumb1638179483.jpg?width=1200&height=900",
+              "sub_cat_likes_count": 0,
+              "sub_cat_cart_count": 0
+            },
+            {
+              "sub_cat_id": "3027",
+              "sub_cat_name": "Roast Beef with Ancho Au Jus Jack Cheese, Grilled Onions, Served on Crumb Bros. Baguette",
+              "sub_cat_desc": "",
+              "sub_cat_price": "9.75",
+              "amount_type": "String",
+              "sub_cat_image": "https://i.pinimg.com/originals/97/82/55/978255a4fd070679e723739dd09c74eb.jpg",
+              "sub_cat_likes_count": 0,
+              "sub_cat_cart_count": 0
+            },
+            {
+              "sub_cat_id": "3027",
+              "sub_cat_name": "Blackened Catfish Creole Peppers & Onions, Fresh Herb Aioli, Served on house made Sourdough",
+              "sub_cat_desc": "",
+              "sub_cat_price": "9.75",
+              "amount_type": "String",
+              "sub_cat_image": "https://media.30seconds.com/tip_image/lg/The-Best-Burger-Recipes-Caramelized-Onion-Burgers--9850-683b513b26-1621270413.jpg",
+              "sub_cat_likes_count": 0,
+              "sub_cat_cart_count": 0
+            }
+          ],
+          "cat_image": "",
+          "cat_likes_status": false,
+          "cat_cart_count": 0
+        }
+      ]
+    },
+    {
+      "category_id": "4",
+      "category_name": "SOUP & SALAD COMBOS",
+      "category_desc": "",
+      "is_sub_category": true,
+      "category_list": [
+        {
+          "cat_id": "401",
+          "cat_name": "French Onion or Soup of the Day",
+          "cat_desc": "",
+          "cat_price": "4.95",
+          "cat_image": "https://www.yellowblissroad.com/wp-content/uploads/2020/10/French-Onion-Soup-social.jpg",
+          "cat_likes_status": false,
+          "cat_cart_count": 0
+        },
+        {
+          "cat_id": "402",
+          "cat_name": "French Onion or Soup of the Day Combos",
+          "cat_desc": "",
+          "cat_price": "",
+          "cat_list": [
+            {
+              "sub_cat_id": "4021",
+              "sub_cat_name": "French Onion or Soup of the Day Combos",
+              "sub_cat_desc": "",
+              "amount_type": "List",
+              "sub_cat_selected_index": 0,
+              "sub_cat_details": [
+                {
+                  "id": "1",
+                  "name": "with small green salad, fresh fruit or house pasta",
+                  "price": "7.25"
+                },
+                {
+                  "id": "2",
+                  "name": "with half pasta of the day",
+                  "price": "8.75"
+                }
+              ],
+              "sub_cat_image": "",
+              "sub_cat_likes_count": 0,
+              "sub_cat_cart_count": 0
+            }
+          ],
+          "cat_image": "https://i0.wp.com/smittenkitchen.com/wp-content/uploads//2011/04/french-onion-soup.jpg?fit=1200%2C800&ssl=1",
+          "cat_likes_status": false,
+          "cat_cart_count": 0
+        }
+      ]
+    },
+    {
+      "category_id": "5",
+      "category_name": "FAJITAS",
+      "category_desc": "",
+      "is_sub_category": false,
+      "category_list": [
+        {
+          "cat_id": "501",
+          "cat_name": "Served with red rice, black beans, grilled tomato salad, choice of corn or flour tortillas",
+          "cat_desc": "Chicken Onions, Poblano and Bell Peppers, Guacamole, Two Salsas\nSirloin Steak, Onions, Poblano and Bell Peppers, Carrots, Onion, Guacamole, Two Salsas",
+          "cat_price": "10.95",
+          "cat_image": "https://twokooksinthekitchen.com/wp-content/uploads/2022/05/vegetarian-fajitas-31.jpg",
+          "cat_likes_status": false,
+          "cat_cart_count": 0
+        },
+        {
+          "cat_id": "502",
+          "cat_name": "Chicken Onions, Poblano and Bell Peppers, Guacamole, Two Salsas",
+          "cat_desc": "",
+          "cat_price": "10.95",
+          "cat_image": "https://yuminthekitchen.com/wp-content/uploads/chicken-fajita-tacos-17.jpg",
+          "cat_likes_status": false,
+          "cat_cart_count": 0
+        },
+        {
+          "cat_id": "503",
+          "cat_name": "Sirloin Steak, Onions, Poblano and Bell Peppers, Carrots, Onion, Guacamole, Two Salsas",
+          "cat_desc": "",
+          "cat_price": "10.95",
+          "cat_image": "https://onedishkitchen.com/wp-content/uploads/2021/07/steak-fajitas-one-dish-kitchen-square-1200.jpg",
+          "cat_likes_status": false,
+          "cat_cart_count": 0
+        }
+      ]
+    },
+    {
+      "category_id": "6",
+      "category_name": "TACOS",
+      "category_desc": "",
+      "is_sub_category": false,
+      "category_list": [
+        {
+          "cat_id": "601",
+          "cat_name": "Served with red rice, black beans, corn & romaine salad, tortilla chips",
+          "cat_desc": "",
+          "cat_price": "9.95",
+          "cat_image": "https://dishingouthealth.com/wp-content/uploads/2021/08/QuinoaTacos_Square.jpg",
+          "cat_likes_status": false,
+          "cat_cart_count": 0
+        },
+        {
+          "cat_id": "602",
+          "cat_name": "Beer Battered Fish with Jalapeño Remoulade, Roasted Salsa, Cabbage",
+          "cat_desc": "",
+          "cat_price": "10.95",
+          "cat_image": "https://simplyhomecooked.com/wp-content/uploads/2021/08/Fish-tacos-recipe.jpg",
+          "cat_likes_status": false,
+          "cat_cart_count": 0
+        },
+        {
+          "cat_id": "603",
+          "cat_name": "Carne Asada (marinated sirloin) with Guacamole, Tomatillo Salsa\n",
+          "cat_desc": "",
+          "cat_price": "10.95",
+          "cat_image": "https://www.spoonabilities.com/wp-content/uploads/2019/05/Skirt-Steak-Tacos-Featured-Image.jpg",
+          "cat_likes_status": false,
+          "cat_cart_count": 0
+        },
+        {
+          "cat_id": "604",
+          "cat_name": "Citrus Marinated Chicken with Guacamole, Tomatillo Salsa",
+          "cat_desc": "",
+          "cat_price": "10.95",
+          "cat_image": "https://www.thecookingcollective.com.au/wp-content/uploads/2023/09/healthy-chicken-tacos.jpg",
+          "cat_likes_status": false,
+          "cat_cart_count": 0
+        },
+        {
+          "cat_id": "605",
+          "cat_name": "Grilled Veggie with Zucchini, Yellow Squash, Bell Peppers, Onion, Guacamole, Tomatillo Salsa",
+          "cat_desc": "",
+          "cat_price": "10.95",
+          "cat_image": "https://static.toiimg.com/thumb/102723123.cms?width=1200&height=900",
+          "cat_likes_status": false,
+          "cat_cart_count": 0
+        }
+      ]
+    },
+    {
+      "category_id": "7",
+      "category_name": "ENCHILADAS",
+      "category_desc": "with Southwestern Succotash, Black Beans with Chipotle Crem",
+      "is_sub_category": true,
+      "category_list": [
+        {
+          "cat_id": "701",
+          "cat_name": "Choice of Beef, Chicken, Cheese or Veggie",
+          "cat_desc": "",
+          "cat_price": "",
+          "cat_image": "",
+          "cat_list": [
+            {
+              "sub_cat_id": "7011",
+              "sub_cat_name": "Choice of Beef, Chicken, Cheese or Veggie",
+              "sub_cat_desc": "",
+              "amount_type": "List",
+              "sub_cat_selected_index": 0,
+              "sub_cat_details": [
+                {
+                  "id": "1",
+                  "name": "uno",
+                  "price": "8.50"
+                },
+                {
+                  "id": "2",
+                  "name": "dos",
+                  "price": "9.95"
+                },
+                {
+                  "id": "1",
+                  "name": "tres",
+                  "price": "11.50"
+                }
+              ],
+              "sub_cat_image": "https://www.jessicagavin.com/wp-content/uploads/2020/05/beef-enchiladas-10-1200.jpg",
+              "sub_cat_likes_count": 0,
+              "sub_cat_cart_count": 0
+            }
+          ],
+          "cat_likes_status": false,
+          "cat_cart_count": 0
+        },
+        {
+          "cat_id": "702",
+          "cat_name": "Chili Relleno Stuffed with Jack Cheese & Corn Glazed Yam, Chayote Squash Succotash, Red Chili Sauce",
+          "cat_desc": "",
+          "cat_price": "9.95",
+          "cat_image": "https://carneandpapas.com/wp-content/uploads/2014/08/RellenoEnchiladas.jpg",
+          "cat_likes_status": false,
+          "cat_cart_count": 0
+        },
+        {
+          "cat_id": "703",
+          "cat_name": "Pepita Crusted Salmon with Chipotle Glaze",
+          "cat_desc": "chevre whipped yams, jicama slaw, tomatillo sauce",
+          "cat_price": "10.95",
+          "cat_image": "https://thedizzycook.com/wp-content/uploads/2023/02/pepita-crusted-salmon.jpg",
+          "cat_likes_status": false,
+          "cat_cart_count": 0
+        }
+      ]
+    },
+    {
+      "category_id": "8",
+      "category_name": "QUICHE",
+      "category_desc": "",
+      "is_sub_category": false,
+      "category_list": [
+        {
+          "cat_id": "801",
+          "cat_name": "Bacon, Swiss, Mushroom, Zucchini and Mushroom Quiche Choice of Fresh Fruit or Green Salad",
+          "cat_desc": "",
+          "cat_price": "8.95",
+          "cat_image": "https://yourguardianchef.com/wp-content/uploads/2021/01/Zucchini-mushroom-pie.jpg",
+          "cat_likes_status": false,
+          "cat_cart_count": 0
+        }
+      ]
+    },
+    {
+      "category_id": "9",
+      "category_name": "GREEN SALADS",
+      "category_desc": "",
+      "is_sub_category": false,
+      "category_list": [
+        {
+          "cat_id": "901",
+          "cat_name": "Grilled Red Trout Lentils, Tomatoes, Cukes, Green Beans, Red Bells, Almonds, Sundried Tomato Vinaigrette",
+          "cat_desc": "",
+          "cat_price": "10.95",
+          "cat_image": "https://cookingforpeanuts.com/wp-content/uploads/2021/09/Chickpea-Lentil-Sun-Dried-Tomato-Sumac-Salad.jpg",
+          "cat_likes_status": false,
+          "cat_cart_count": 0
+        },
+        {
+          "cat_id": "902",
+          "cat_name": "Smoked Turkey Cheese Tortellini, Bacon, Tomato, Cucumber, Egg, Black Bean-Corn Salsa, Avocado",
+          "cat_desc": "",
+          "cat_price": "9.95",
+          "cat_image": "https://www.gastronotherapy.com/wp-content/uploads/2022/04/L1140195-2.jpg",
+          "cat_likes_status": false,
+          "cat_cart_count": 0
+        },
+        {
+          "cat_id": "903",
+          "cat_name": "Asian Grilled Chicken Snow Peas, Carrot Slaw, Red Bells, Water Chestnut, Peanuts, Baby Corn, Cilantro, Cukes, Spicy Peanut Dressing",
+          "cat_desc": "",
+          "cat_price": "10.50",
+          "cat_image": "https://i0.wp.com/smittenkitchen.com/wp-content/uploads/2022/05/poolside-sesame-slaw-12-scaled.jpg?fit=1200%2C800&ssl=1",
+          "cat_likes_status": false,
+          "cat_cart_count": 0
+        },
+        {
+          "cat_id": "904",
+          "cat_name": "Southwest Grilled Chicken Tomato, Guacamole, pepitas, Jicama, Corn & Black Bean Salsa, Orange Wedges, Spicy Citrus Vinaigrette",
+          "cat_desc": "",
+          "cat_price": "10.50",
+          "cat_image": "https://www.homemadeinterest.com/wp-content/uploads/2021/08/Southwest-Salad_IG-5.jpg",
+          "cat_likes_status": false,
+          "cat_cart_count": 0
+        },
+        {
+          "cat_id": "905",
+          "cat_name": "Mediterranean Italian Sausage, Artichoke Hearts, Green Beans, Roma Tomato, Kalamatas, Red Onion, Cucumber, Croutons, Parmesan, Fresh Mozzarella, Gorgonzola Vinaigrette",
+          "cat_desc": "",
+          "cat_price": "9.95",
+          "cat_image": "https://afullliving.com/wp-content/uploads/2022/01/Italian-Green-Bean-Salad-1200-x-1200.png",
+          "cat_likes_status": false,
+          "cat_cart_count": 0
+        },
+        {
+          "cat_id": "906",
+          "cat_name": "Grilled Salmon Artichoke tapenade, shredded kale, corn, radish, parmesan crisps",
+          "cat_desc": "",
+          "cat_price": "11.50",
+          "cat_image": "https://iloveorganicgirl.com/wp-content/uploads/2021/06/20210428_OrganicGirl_SuperGreens_SuperGreenSalmonSalad_090.jpg  ",
+          "cat_likes_status": false,
+          "cat_cart_count": 0
+        }
+      ]
+    }
+  ]
+}
